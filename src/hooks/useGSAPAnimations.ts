@@ -8,7 +8,7 @@ import { useEffect } from 'react';
  */
 export function useGSAPAnimations() {
   useEffect(() => {
-    let ctx: import('gsap').Context | null = null;
+    let ctx: { revert: () => void } | null = null;
 
     async function init() {
       const { default: gsap } = await import('gsap');
