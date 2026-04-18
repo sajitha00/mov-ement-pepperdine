@@ -26,6 +26,7 @@ export default function Navbar() {
     { href: '/malibu', label: 'Malibu' },
     { href: '/merchants', label: 'Merchants' },
     { href: '/students', label: 'Students' },
+    { href: '/community', label: 'Community' },
   ];
 
   const navBg = isDark

@@ -11,7 +11,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "The Movement Pepperdine – Student Discounts & Local Deals in Malibu",
-  description: "The Movement connects Pepperdine Waves with exclusive local deals and helps Malibu businesses reach 40,000+ students. Free to join.",
+  description: "The Movement connects nearly 10,000 Pepperdine students with exclusive local deals and helps Malibu businesses grow. Free to join.",
   keywords: "Pepperdine student discounts, Malibu deals, University of California Malibu, student offers, local businesses",
 };
 

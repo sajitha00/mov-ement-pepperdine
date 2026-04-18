@@ -31,6 +31,7 @@ export default function StudentsPage() {
     { q: 'How often are new deals added?', a: 'New deals are added every week. Subscribe to our newsletter or check the Happening page to stay up to date.' },
     { q: 'Can graduate and international students join?', a: 'Yes! Any currently enrolled Pepperdine student with a valid .edu email qualifies, regardless of program or residency status.' },
     { q: 'What if a merchant doesn\'t honor my pass?', a: 'Contact us immediately at chamil.hettiarachchi@sales.movement.college. We take merchant compliance very seriously and address every issue.' },
+    { q: 'I\'m a grad student at West LA, Calabasas, or Irvine \u2014 can I join?', a: 'Yes! The Movement is open to all currently enrolled Pepperdine students across all campuses. Just sign up with your .edu email.' },
   ];
 
   return (
@@ -49,8 +50,8 @@ export default function StudentsPage() {
                   <div className="d-flex flex-column">
                     <div className="card-expertise-wrapper">
                       <div className="card card-expertise " data-gsap="fade-up">
-                        <h4>40,000+ Pepperdine Waves Already Saving</h4>
-                        <p>Join your fellow students and start saving at 100+ local Malibu businesses.</p>
+                        <h4>Nearly 10,000 Pepperdine Waves — Join Your Community</h4>
+                        <p>Register free and start saving at local businesses near campus — open to all Pepperdine students across every campus.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
                           <Link href="#register">Register Free Now</Link>
                           <i className="fa-solid fa-circle-arrow-right"></i>
@@ -71,7 +72,7 @@ export default function StudentsPage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 Exclusive Deals Around Pepperdine Campus — Always Free
               </h2>
-              <p>The Movement gives every Pepperdine student instant access to exclusive discounts at local restaurants, gyms, retail stores, and services near campus. No cost, no catch.</p>
+              <p>The Movement gives every Pepperdine student — whether you&apos;re an undergrad on the Malibu campus or a grad student in West LA, Calabasas, or Irvine — instant access to exclusive discounts at local businesses near campus. No cost, no catch.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>What You Get</h5>
@@ -145,7 +146,7 @@ export default function StudentsPage() {
       </div>
 
       <PartnerSection
-        heading="100+ Local Businesses Want to Serve You"
+        heading="Local Businesses Ready to Serve You"
         desc="From dining to fitness, retail to entertainment — every deal on The Movement is from a real local Malibu business that wants your business."
       />
 
@@ -208,6 +209,39 @@ export default function StudentsPage() {
           </div>
         </div>
         <div className="spacer"></div>
+      </div>
+
+      {/* ─── CSR: Give Back While You Save ─── */}
+      <div className="section">
+        <div className="hero-container">
+          <div className="card" style={{
+            padding: '48px 40px',
+            borderRadius: 24,
+            background: 'linear-gradient(135deg, rgba(255,98,0,0.08) 0%, rgba(139,18,223,0.12) 100%)',
+            border: '1px solid rgba(139,18,223,0.2)',
+            backdropFilter: 'blur(20px)',
+          }}>
+            <div className="d-flex flex-column flex-xl-row gspace-5 align-items-center">
+              <div style={{ flex: 1 }}>
+                <div className="sub-heading" style={{ marginBottom: 16 }}>
+                  <i className="fa-regular fa-circle-dot"></i>
+                  <span>Community Impact</span>
+                </div>
+                <h3 className="title-heading" style={{ marginBottom: 16 }}>
+                  Save More. Give Back. Be the Change.
+                </h3>
+                <p style={{ lineHeight: 1.8 }}>
+                  Every time you use The Movement, you&apos;re part of a community that believes in purpose-driven living. We partner with Change the Cycle Inc. — a nonprofit founded right here in Calabasas — to support girls and young women in underserved communities who have big dreams but limited means. Keep an eye on The Movement for upcoming student fundraiser events at local Malibu businesses. Every dollar raised goes toward STEM scholarships and career support for girls who need it most.
+                </p>
+                <Link href="/happening" className="btn btn-accent" style={{ marginTop: 8 }}>
+                  <div className="btn-title"><span>Find Upcoming Fundraisers</span></div>
+                  <div className="icon-circle"><i className="fa-solid fa-arrow-right"></i></div>
+                </Link>
+              </div>
+              <div style={{ flexShrink: 0, fontSize: '6rem', opacity: 0.15, lineHeight: 1 }}>❤️</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* ─── FAQ ─── */}

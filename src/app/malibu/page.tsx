@@ -25,13 +25,13 @@ export default function ArlingtonPage() {
           <div className="d-flex flex-column flex-xl-row gspace-5">
             <div className="expertise-img-layout">
               <div className="image-container expertise-img" style={{ borderRadius: '24px', overflow: 'hidden' }}>
-                <img src="https://images.unsplash.com/photo-1558544818-be525037d55f?auto=format&fit=crop&w=600&q=80" alt="Malibu TX" className="img-fluid " data-gsap="fade-up" />
+                <img src="https://images.unsplash.com/photo-1558544818-be525037d55f?auto=format&fit=crop&w=600&q=80" alt="Malibu CA" className="img-fluid " data-gsap="fade-up" />
                 <div className="expertise-layout">
                   <div className="d-flex flex-column">
                     <div className="card-expertise-wrapper">
                       <div className="card card-expertise " data-gsap="fade-up">
                         <h4>The Heart of The Movement</h4>
-                        <p>Malibu, TX — home to Pepperdine&apos;s 40,000+ Waves and 100+ businesses ready to serve them.</p>
+                        <p>Malibu, CA — home to Pepperdine&apos;s 3,553-strong undergraduate campus and the heart of a nearly 10,000-student university community.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
                           <Link href="/students">Explore All Deals</Link>
                           <i className="fa-solid fa-circle-arrow-right"></i>
@@ -52,15 +52,18 @@ export default function ArlingtonPage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 The Pepperdine Wave City
               </h2>
-              <p>With 40,000+ enrolled students, Pepperdine is one of the largest universities in California. The Movement exists to make Malibu&apos;s vibrant local business scene fully accessible to every Wave on campus.</p>
+              <p>With 3,553 undergraduates living on Pepperdine&apos;s stunning 830-acre Malibu campus — and nearly 10,000 students enrolled across the full university — this is one of the most captive and engaged college communities in Southern California. The Movement exists to make Malibu&apos;s vibrant local business scene fully accessible to every Wave.</p>
               <p>Whether you&apos;re looking for the best lunch spot near the Engineering Building or a gym within walking distance of the Wave Activities Center, The Movement has you covered.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>Campus & City Facts</h5>
                   <ul className="check-list">
-                    <li><a href="#">40,000+ enrolled Pepperdine students</a></li>
-                    <li><a href="#">Top 50 largest US university by enrollment</a></li>
-                    <li><a href="#">Located in the Los Angeles Coast</a></li>
+                    <li><a href="#">~3,553 undergrads on the Malibu campus (fall 2024)</a></li>
+                    <li><a href="#">Nearly 10,000 students across all Pepperdine campuses</a></li>
+                    <li><a href="#">830-acre campus overlooking the Pacific Ocean</a></li>
+                    <li><a href="#">29 miles from Downtown Los Angeles</a></li>
+                    <li><a href="#">61% of undergrads live on or near campus</a></li>
+                    <li><a href="#">12:1 student-to-faculty ratio</a></li>
                     <li><a href="#">300+ days of sunshine per year</a></li>
                     <li><a href="#">Home of the Waves</a></li>
                   </ul>
@@ -179,11 +182,11 @@ export default function ArlingtonPage() {
                     Tap Into the Pepperdine Student Economy
                   </h2>
                   <p className="mb-0 " data-gsap="fade-up">
-                    40,000 students are walking around your city right now, looking for great local businesses. The Movement makes sure they find yours first.
+                    Nearly 3,500 students are on the Malibu campus right now, looking for great local businesses. As part of a university community approaching 10,000 strong, Pepperdine Waves are an economically active, loyal, and word-of-mouth-driven customer base. The Movement makes sure they find your business first.
                   </p>
                 </div>
                 <div className="image-container" style={{ borderRadius: '24px', overflow: 'hidden' }}>
-                  <img src="https://images.unsplash.com/photo-1621788959150-f4a9955e65e8?auto=format&fit=crop&w=600&q=80" alt="Malibu TX merchants" className="chooseus-img" />
+                  <img src="https://images.unsplash.com/photo-1621788959150-f4a9955e65e8?auto=format&fit=crop&w=600&q=80" alt="Malibu CA merchants" className="chooseus-img" />
                   <div className="card-chooseus-cta-layout">
                     <div className="chooseus-cta-spacer"></div>
                     <div className="d-flex flex-column align-items-end">

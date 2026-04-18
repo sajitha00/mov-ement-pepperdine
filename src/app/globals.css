@@ -95,7 +95,7 @@ body { margin: 0; padding: 0; }
 /* title-heading gradient — override template's white gradient with dark version in light mode */
 [data-theme="light"] .title-heading,
 [data-theme="light"] .title-heading-banner {
-  background-image: linear-gradient(284deg, rgba(0,0,0,0.25) 3%, #0f0f1a 100%) !important;
+  background-image: linear-gradient(284deg, rgba(0,0,0,0.4) 0%, #0f0f1a 50%) !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;

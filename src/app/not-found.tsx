@@ -50,7 +50,7 @@ export default function NotFound() {
               <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
                 {[
                   { icon: '/Icon-7.png', title: 'For Students', desc: 'Browse 100+ exclusive local deals around Pepperdine campus — always free for Waves.', href: '/students', label: 'Browse Deals' },
-                  { icon: '/Icon-8.png', title: 'For Merchants', desc: 'List your Malibu business and reach 40,000+ Pepperdine students — free to join.', href: '/merchants', label: 'List Your Business' },
+                  { icon: '/Icon-8.png', title: 'For Merchants', desc: 'List your Malibu business and reach nearly 10,000 Pepperdine students — free to join.', href: '/merchants', label: 'List Your Business' },
                   { icon: '/Icon-5.png', title: 'Happening Now', desc: 'See the latest deals, events, and limited-time offers near Pepperdine campus.', href: '/happening', label: 'View Happening' },
                 ].map(item => (
                   <div className="col" key={item.title}>

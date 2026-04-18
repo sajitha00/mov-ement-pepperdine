@@ -68,11 +68,7 @@ export function GuideBand({ title, desc, linkLabel, linkHref }: { title: string;
       <div className="guide-banner">
         <div className="hero-container">
           <div className="guide-content animate-box animated animate__animated" data-animate="animate__fadeInUp">
-            <div className="guide-video-container">
-              <button className="request-loader" style={{ background: 'var(--accent-color,#f04523)', border: 'none', cursor: 'pointer' }}>
-                <i className="fa-solid fa-play"></i>
-              </button>
-              <p>See How The Movement Works</p>
+            <div className="guide-video-container" style={{ display: 'none' }}>
             </div>
             <div className="d-flex flex-column gspace-2">
               <h3 className="title-heading">{title}</h3>

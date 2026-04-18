@@ -52,7 +52,7 @@ export default function AboutPage() {
                 <h2 className="title-heading " data-gsap="fade-right">
                   Who We Are &amp; What Drives Us
                 </h2>
-                <p>The Movement Pepperdine is a community-first platform that bridges the gap between Pepperdine&apos;s 40,000+ Wave students and the best local businesses in Malibu, California.</p>
+                <p>The Movement Pepperdine is a community-first platform connecting Pepperdine&apos;s nearly 10,000 students — across campuses in Malibu, West LA, Calabasas, and Irvine — with the best local businesses in the Malibu area. With 3,553 undergraduates living on or near the Malibu campus and thousands more graduate students across Southern California, Pepperdine is one of the most concentrated and engaged college communities in California.</p>
                 <p>We believe students deserve access to real savings, and local businesses deserve a direct line to the campus community. The Movement makes both possible — for free.</p>
                 <div className="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                   <div className="about-list">
@@ -174,7 +174,7 @@ export default function AboutPage() {
                           {[1,2,3,4].map(n => <img key={n} src={`https://i.pravatar.cc/150?img=${n+10}`} alt="Reviewer" className="avatar" />)}
                         </div>
                         <div className="detail">
-                          <h6>40k+</h6><h6>Pepperdine Students</h6>
+                          <h6>~10K</h6><h6>Pepperdine Students</h6>
                         </div>
                       </div>
                       <div className="testimonial-rating-container">

@@ -1,0 +1,328 @@
+THE MOVEMENT PEPPERDINE
+Website Content Update Brief
+For: Dev Team (Sri Lanka)   |   Prepared by: Territory Owner   |   Date: April 2026
+Website: https://www.pepperdine.finastery.com/
+
+This brief covers 3 areas: (1) Content Corrections — fix inaccurate stats across all pages, (2) New Integrations — event discovery feed via Eventbrite, Ticketmaster & Facebook Events, (3) New CSR Section — Change the Cycle Inc. community initiative.
+
+PART 1: CONTENT CORRECTIONS — ALL PAGES
+Critical Facts (use these across the entire site)
+	•	Total Pepperdine University enrollment (2024-25): ~8,976 students
+	•	Undergraduate students on Malibu campus: 3,553
+	•	Graduate students university-wide: 5,423
+	•	Campuses: Malibu (main), West Los Angeles, Calabasas, Irvine
+	•	Malibu campus size: 830 acres overlooking the Pacific Ocean
+	•	Student-to-faculty ratio: 12:1
+	•	61% of Malibu undergrads live on campus
+
+Approved Messaging Framework
+	•	Primary stat for headlines: "nearly 10,000 students"
+	•	Secondary stat for body copy: "3,553 undergrads on the Malibu campus"
+	•	Campus reach: "across Malibu, West LA, Calabasas, and Irvine"
+!! NEVER use "40,000+" anywhere on the site — this is factually wrong and must be removed from every page immediately
+
+Page 1: Homepage (/)
+Section: Hero (top banner)
+CURRENT TEXT — REPLACE
+"The Movement connects 40,000+ Pepperdine Waves with exclusive discounts at 100+ local Malibu businesses."
+REPLACE WITH
+"The Movement connects nearly 10,000 Pepperdine students — across Malibu, West LA, Calabasas, and Irvine — with exclusive discounts at local businesses. Free for students. Free to list for merchants."
+
+STAT BADGE — CURRENT
+"40,000+ students already saving in Malibu"
+REPLACE WITH
+"3,553 undergrads on the Malibu campus"
+
+SECONDARY BADGE — CURRENT
+"40,000+ students"
+REPLACE WITH
+"~10,000 students across 4 campuses"
+
+Section: "What is The Movement"
+BODY TEXT — REPLACE WITH
+"The Movement bridges Pepperdine Waves and the best local businesses in Malibu — serving a university community of nearly 10,000 students spread across Southern California, with the heart of campus life right here in Malibu."
+
+COUNTER SHOWING "0+ LOCAL BUSINESS DEALS"
+ACTION: Connect to live CMS deal count, OR replace with static text: "Growing network of local deals — new merchants added weekly" until real data exists.
+
+Section: Stats Bar
+CURRENT: "40K+ PEPPERDINE STUDENTS"
+Replace with: "~10K Students — All Campuses"
+The "0+ Local Deals" and "0x Avg Traffic Boost" counters are showing ZERO live on the site. Wire to real CMS data or replace with text-based value props until real data exists.
+
+Section: CTA Banner
+CURRENT
+"Ready to reach 40,000+ Pepperdine students?"
+REPLACE WITH
+"Ready to reach nearly 10,000 Pepperdine students?"
+
+Page 2: About (/about/)
+Section: Hero / Intro — body paragraph
+REPLACE WITH
+"The Movement Pepperdine is a community-first platform connecting Pepperdine's nearly 10,000 students — across campuses in Malibu, West LA, Calabasas, and Irvine — with the best local businesses in the Malibu area. With 3,553 undergraduates living on or near the Malibu campus and thousands more graduate students across Southern California, Pepperdine is one of the most concentrated and engaged college communities in California."
+
+Section: Bullet List
+	•	REMOVE: "40,000+ enrolled Pepperdine students"
+	•	ADD: "~3,553 undergrads on the Malibu campus"
+	•	ADD: "Nearly 10,000 students university-wide across 4 SoCal campuses"
+
+Section: Stats Bar
+Change "40k+ Pepperdine Students" to "~10K Pepperdine Students"
+
+Page 3: Malibu (/malibu/)
+!! CRITICAL BUG: The hero subtitle currently reads "Malibu, TX" — Malibu is in CALIFORNIA, not Texas. Fix this immediately.
+Replace with: "Malibu, CA"
+
+Section: Hero Subheadline
+CURRENT
+"home to Pepperdine's 40,000+ Waves and 100+ businesses"
+REPLACE WITH
+"home to Pepperdine's 3,553-strong undergraduate campus and the heart of a nearly 10,000-student university community"
+
+Section: "Pepperdine Wave City" body
+!! Current text claims Pepperdine is "one of the largest universities in California" — FACTUALLY INCORRECT. Pepperdine is a small private university. Remove immediately.
+REPLACE WITH
+"With 3,553 undergraduates living on Pepperdine's stunning 830-acre Malibu campus — and nearly 10,000 students enrolled across the full university — this is one of the most captive and engaged college communities in Southern California. The Movement exists to make Malibu's vibrant local business scene fully accessible to every Wave."
+
+Section: Campus & City Facts bullets
+	•	REMOVE: "40,000+ enrolled Pepperdine students"
+	•	REMOVE: "Top 50 largest US university by enrollment"
+	•	ADD: "~3,553 undergrads on the Malibu campus (fall 2024)"
+	•	ADD: "Nearly 10,000 students across all Pepperdine campuses"
+	•	ADD: "830-acre campus overlooking the Pacific Ocean"
+	•	ADD: "29 miles from Downtown Los Angeles"
+	•	ADD: "61% of undergrads live on or near campus"
+	•	ADD: "12:1 student-to-faculty ratio"
+	•	KEEP: "300+ days of sunshine per year"
+
+Section: Merchant CTA body
+REPLACE WITH
+"Nearly 3,500 students are on the Malibu campus right now, looking for great local businesses. As part of a university community approaching 10,000 strong, Pepperdine Waves are an economically active, loyal, and word-of-mouth-driven customer base. The Movement makes sure they find your business first."
+
+Page 4: Merchants (/merchants/)
+Section: Hero Banner
+HEADLINE — REPLACE WITH
+"Ready to Reach Nearly 10,000 Pepperdine Students?"
+SUBTEXT — REPLACE WITH
+"Your deal goes live within 48 hours — reaching 3,500+ undergrads on the Malibu campus and nearly 10,000 students across all Pepperdine locations. Completely free."
+
+Section: "Grow Your Business" body
+FIND AND REPLACE THIS PHRASE
+"a captive, engaged audience of 40,000+ Pepperdine Waves — one of the largest campuses in California"
+REPLACE WITH
+"a captive, engaged audience of nearly 10,000 Pepperdine Waves across Southern California — with 3,553 undergraduates concentrated right on the Malibu campus"
+
+Section: "40,000+ Student Audience" benefit card
+CARD TITLE — REPLACE WITH
+"Nearly 10,000-Student Audience"
+CARD BODY — REPLACE WITH
+"Get your deal in front of Pepperdine's entire student community — 3,553 undergrads on the Malibu campus plus thousands of graduate students across West LA, Calabasas, and Irvine."
+
+Section: Trust bar and CTA banner
+	•	Change "Trusted by 100+ Malibu Businesses" to "Trusted by Local Malibu Businesses" (remove 100+ until that number is verified)
+	•	Change "Join 100+ local Malibu businesses..." to "Be among the first Malibu businesses to reach the Pepperdine student community..."
+
+Page 5: Students (/students/)
+Section: Hero Banner
+REPLACE HEADLINE WITH
+"Nearly 10,000 Pepperdine Waves — Join Your Community"
+REPLACE SUBTEXT WITH
+"Register free and start saving at local businesses near campus — open to all Pepperdine students across every campus."
+
+Section: "Exclusive Deals" body
+REPLACE WITH
+"The Movement gives every Pepperdine student — whether you're an undergrad on the Malibu campus or a grad student in West LA, Calabasas, or Irvine — instant access to exclusive discounts at local businesses near campus. No cost, no catch."
+
+Section: Trust bar
+	•	Change "100+ Local Businesses Want to Serve You" to "Local Businesses Ready to Serve You" (remove 100+ until verified)
+
+Section: Student FAQ — Add New Q&A
+NEW QUESTION TO ADD
+Q: "I'm a grad student at West LA, Calabasas, or Irvine — can I join?"
+A: "Yes! The Movement is open to all currently enrolled Pepperdine students across all campuses. Just sign up with your .edu email."
+
+PART 2: NEW INTEGRATIONS — EVENT DISCOVERY FEED
+Add a live "What's Happening" events feed pulling from Eventbrite, Ticketmaster, and Facebook Events. This gives both students and merchants a reason to return to the site regularly, and gives merchants a way to promote their own events.
+
+Add this section to: (1) Homepage — between Success Stories and FAQ sections, (2) Dedicated /happening/ page
+
+UI / Design Spec for Events Section
+	•	Card grid layout — 3 columns desktop, 1 column mobile
+	•	Each card shows: Event name, date, location, source badge (Eventbrite / Ticketmaster / Facebook), short description, "Get Tickets" or "RSVP" CTA button
+	•	Filter tabs: All | Food & Drink | Music | Sports | Nightlife | Community | Fundraisers
+	•	Search bar: "Search events near Pepperdine..."
+	•	Location radius filter: Within 5 miles | 10 miles | 25 miles of campus
+	•	Date filter: Today | This Week | This Weekend | This Month
+	•	Section heading: "What's Happening Around Campus"
+	•	Subheading: "Events, deals, and things to do near Pepperdine — updated daily."
+	•	Homepage: show 3 upcoming events with "See All Events" link to /happening/
+	•	Add "Submit Your Event" button for merchants to submit events for review
+
+Integration 1: Eventbrite API
+API DOCS
+https://www.eventbrite.com/platform/api
+ENDPOINT
+GET /events/search/
+KEY PARAMETERS
+location.address = "Malibu, CA"
+location.within = "25mi"
+sort_by = "date"
+expand = "venue,organizer,ticket_availability"
+
+AUTHENTICATION
+OAuth 2.0 (Private Token). Dev must create free account at eventbrite.com/platform
+
+FIELDS TO DISPLAY FROM API RESPONSE
+	•	name.text — event title
+	•	start.local — date and time
+	•	venue.name + venue.address — location
+	•	description.text — truncate to 120 characters
+	•	url — link to ticket page
+	•	logo.url — event image
+
+Integration 2: Ticketmaster Discovery API
+API DOCS
+https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/
+ENDPOINT
+GET /discovery/v2/events.json
+KEY PARAMETERS
+city = "Malibu"
+stateCode = "CA"
+radius = 25, unit = "miles"
+sort = "date,asc"
+
+AUTHENTICATION
+API Key — free tier at https://developer.ticketmaster.com/
+
+FIELDS TO DISPLAY FROM API RESPONSE
+	•	name — event title
+	•	dates.start.localDate + localTime
+	•	_embedded.venues[0].name + address
+	•	_embedded.attractions[0].name — artist or performer name
+	•	url — ticket link
+	•	images[0].url — event image
+
+Integration 3: Facebook Events (Meta Graph API)
+Facebook's public events API is restricted. Start with Option B and upgrade later.
+
+Option A (Easiest)
+Use Facebook oEmbed or manually curate Facebook event links for partner merchants and display as cards.
+Option B — Recommended Starting Point
+Ask each merchant joining The Movement to share their Facebook Event links. Team manually adds these to the /happening/ CMS and displays them as cards with a "Facebook Event" badge.
+Option C — Future Upgrade
+Use the Meta Graph API with a Page Access Token to pull events from specific Facebook Pages (Pepperdine-area business pages we follow). Requires Facebook App approval. Upgrade to this as the merchant network grows.
+
+Technical Notes for Dev Team
+	•	Build a server-side proxy/middleware (Node.js or PHP) to call the APIs. Do NOT expose API keys in frontend JavaScript.
+	•	Cache API responses for 30-60 minutes to avoid rate limits. Use Redis or simple file-based cache.
+	•	Deduplicate events that appear across multiple sources — match by event name + date + location.
+	•	Add "Powered by Eventbrite" and Ticketmaster attribution badges per their API Terms of Service.
+	•	Fallback: if APIs return no results, show static message "Check back soon — events coming!" instead of empty state.
+	•	Mobile responsiveness is critical — students will primarily view this on phones.
+	•	Add "Submit Your Event" button so merchants can submit events for admin review before they go live.
+
+PART 3: NEW CSR INITIATIVE — CHANGE THE CYCLE INC.
+About Change the Cycle Inc.
+	•	Website: https://www.changethecycleinc.com/
+	•	Based in: Calabasas, CA — same community as our Territory Owner
+	•	Founded: 2020
+	•	Mission: Empowering underrepresented and underserved girls and young women worldwide, facilitating their journey from educational access to sustainable employment
+	•	Focus: STEM education for girls in underserved communities — Los Angeles, Sri Lanka, Ghana, Uganda, Papua New Guinea
+	•	Key programs: Girls IT education (Code in Pink), scholarships, job placement, financial assistance
+	•	Past events: Fundraiser galas and fashion shows in Calabasas; raised $5,000+ at one event
+
+Why This Is a Perfect CSR Fit
+	•	Authentic local connection: The nonprofit is based in Calabasas, right next door to Pepperdine
+	•	Relevance to students: Pepperdine students are purpose-driven and respond strongly to social impact
+	•	Merchant opportunity: Malibu businesses can host fundraiser nights tied to Change the Cycle
+	•	Student engagement: Students can organize events, volunteer, and support through The Movement platform
+	•	Powerful dual message: "You're saving money AND changing lives" is compelling for student sign-ups
+	•	International dimension: Connects Pepperdine's global student community to missions in Sri Lanka, Ghana, Uganda
+
+Where to Add CSR Content on the Site
+	•	Homepage — new section near bottom, above footer
+	•	About page — "Community Mission" section
+	•	Merchants page — "Host a Fundraiser Night" callout box
+	•	Students page — "Give Back While You Save" callout box
+	•	New dedicated page: /community/
+
+Homepage CSR Section — Copy
+SECTION HEADING
+"Saving Money. Changing Lives."
+SUBHEADING
+"The Movement is proud to support Change the Cycle Inc. — a Calabasas-based nonprofit empowering girls worldwide through STEM education."
+BODY COPY
+"While you save on food, fitness, and fun — a portion of The Movement's community impact goes toward something bigger. Change the Cycle Inc. is dedicated to breaking the cycle of poverty for underserved girls and young women through education, job training, and financial support — in Los Angeles, Sri Lanka, Ghana, Uganda, and beyond. As a Pepperdine Wave, you have the power to make a real difference simply by being part of The Movement community."
+
+3 STAT TILES
+	•	Tile 1: "Girls Supported" — "In multiple countries across 3 continents"
+	•	Tile 2: "Focus Area" — "STEM Education + Career Placement"
+	•	Tile 3: "Based In" — "Calabasas, CA — our backyard"
+
+CTA BUTTONS
+	•	Primary: "Learn More About Change the Cycle" — links to https://www.changethecycleinc.com/
+	•	Secondary: "Host a Fundraiser at Your Business" — links to /merchants/
+
+Merchants Page CSR Callout — Copy
+CALLOUT BOX HEADING
+"Host a Fundraiser Night — Give Back to the Community"
+BODY COPY
+"Partner with The Movement and Change the Cycle Inc. to host a student fundraiser night at your Malibu business. It's good for your brand, great for foot traffic, and life-changing for girls around the world who need access to education. Change the Cycle Inc. is a Calabasas-based nonprofit that empowers underserved girls through STEM education and job placement — in Los Angeles, Sri Lanka, Ghana, and Uganda. Local businesses that host fundraiser events get featured prominently on The Movement platform and in our campus outreach."
+CTA
+"Get Involved — Contact Us About Hosting a Fundraiser" — links to contact form
+
+Students Page CSR Callout — Copy
+CALLOUT BOX HEADING
+"Save More. Give Back. Be the Change."
+BODY COPY
+"Every time you use The Movement, you're part of a community that believes in purpose-driven living. We partner with Change the Cycle Inc. — a nonprofit founded right here in Calabasas — to support girls and young women in underserved communities who have big dreams but limited means. Keep an eye on The Movement for upcoming student fundraiser events at local Malibu businesses. Every dollar raised goes toward STEM scholarships and career support for girls who need it most."
+CTA
+"Find Upcoming Fundraisers" — links to /happening/ with Fundraisers filter
+
+New Page: /community/
+PAGE TITLE
+"Community Impact — The Movement x Change the Cycle"
+META DESCRIPTION
+"The Movement Pepperdine partners with Change the Cycle Inc. to support STEM education for underserved girls worldwide. Join us. Give back."
+PAGE SECTIONS (IN ORDER)
+	•	Hero — "The Movement is More Than Deals"
+	•	About Change the Cycle Inc. — mission, countries served, programs
+	•	How Students Can Help — Donate, Volunteer, Attend a Fundraiser, Share on social
+	•	Upcoming Fundraiser Events — pull from /happening/ filtered by Fundraisers tag
+	•	"Host a Fundraiser" CTA for merchants
+	•	External link: https://www.changethecycleinc.com/
+
+PART 4: PRIORITY ORDER FOR DEV TEAM
+Week 1 — URGENT (Content Fixes)
+These must be completed first. Wrong stats are live on the site right now and visible to all visitors and potential merchants.
+	•	[ ] Fix "Malibu, TX" to "Malibu, CA" on the Malibu page (critical bug)
+	•	[ ] Replace ALL instances of "40,000+" with correct copy per Part 1 above
+	•	[ ] Remove "Top 50 largest US university" claim from Malibu page
+	•	[ ] Fix the "0+" counters on homepage and about page (connect to CMS or replace with text)
+
+Week 2 — HIGH PRIORITY (CSR Section)
+	•	[ ] Add Change the Cycle section to Homepage
+	•	[ ] Add Change the Cycle callout to Merchants page
+	•	[ ] Add Change the Cycle callout to Students page
+	•	[ ] Create /community/ page with full partnership content
+
+Week 3 — MEDIUM PRIORITY (Events Integration)
+	•	[ ] Register for Eventbrite API key at eventbrite.com/platform
+	•	[ ] Register for Ticketmaster API key at developer.ticketmaster.com
+	•	[ ] Set up Eventbrite API integration with server-side proxy
+	•	[ ] Set up Ticketmaster API integration
+	•	[ ] Build events card grid UI on /happening/ page with filter tabs and search
+	•	[ ] Add homepage preview showing 3 upcoming events
+	•	[ ] Set up merchant "Submit Your Event" form with admin review workflow
+
+Week 4 — Ongoing
+	•	[ ] Monitor API reliability and caching performance
+	•	[ ] Add Facebook Events — start with Option B (manual merchant links)
+	•	[ ] Test all pages on mobile and across Chrome, Safari, Firefox
+
+Questions? Contact
+	•	Territory Owner: chamil.hettiarachchi@sales.movement.college
+	•	Website: https://www.pepperdine.finastery.com/
+	•	Change the Cycle Inc.: https://www.changethecycleinc.com/
+
+End of Brief — The Movement Pepperdine © 2026

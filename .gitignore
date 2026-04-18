@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Source video files (copies are in /public/)
+video/
+
+# Environment secrets
+.env.local

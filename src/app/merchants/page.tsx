@@ -4,13 +4,16 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { PageBanner, PartnerSection, GuideBand } from '@/components/PageComponents';
+import { useTheme } from '@/components/ThemeProvider';
 
 export default function MerchantsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const { theme } = useTheme();
+  const isDark = theme === 'dark';
 
   const benefits = [
     { icon: '/Icon-7.png', title: 'Zero Cost to List', desc: 'Getting your business on The Movement is completely free. No setup fee, no monthly charge, no commissions on redemptions.' },
-    { icon: '/Icon-8.png', title: '40,000+ Student Audience', desc: 'Instantly get your deal in front of Pepperdine\'s entire student body — one of the largest campuses in California.' },
+    { icon: '/Icon-8.png', title: 'Nearly 10,000-Student Audience', desc: 'Get your deal in front of Pepperdine\'s entire student community — 3,553 undergrads on the Malibu campus plus thousands of graduate students across West LA, Calabasas, and Irvine.' },
     { icon: '/Icon-5.png', title: 'Loyal, Recurring Customers', desc: 'Students who discover your business through The Movement come back — and they bring their friends.' },
     { icon: '/Icon-6.png', title: 'Simple Merchant Dashboard', desc: 'Update your deal, add photos, change your offer, and track redemptions — all from a clean, mobile-friendly dashboard.' },
     { icon: '/Icon-4.png', title: 'Verified Student Traffic', desc: 'Only verified Pepperdine students can redeem deals. No bots, no coupon abuse — just real, qualified customers.' },
@@ -38,19 +41,109 @@ export default function MerchantsPage() {
       <Navbar />
       <PageBanner title="For Merchants" breadcrumb="Merchants" />
 
+      {/* ─── Full Hero Video Section (same layout as homepage) ─── */}
+      <div className="section-banner">
+        <div className="banner-video-container" data-gsap="fade-up">
+          <div style={{
+            position: 'absolute', inset: 0, zIndex: 0,
+            background: isDark
+              ? 'linear-gradient(135deg, #0B0014 0%, #1a004d 50%, #0B0014 100%)'
+              : 'linear-gradient(135deg, #f0f0fb 0%, #e8e8f8 50%, #f0f0fb 100%)',
+            transition: 'background 0.4s ease',
+          }}></div>
+
+          <div className="hero-container position-relative" style={{ zIndex: 2 }}>
+            <div className="hero-split-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '48px', alignItems: 'center', minHeight: 520, padding: '60px 0 40px' }}>
+
+              {/* ── LEFT: Text + CTA ── */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+                <h1 className="title-heading" data-gsap="hero" style={{
+                  margin: 0,
+                  fontSize: 'clamp(2rem, 4vw, 3.2rem)',
+                  fontWeight: 900,
+                  lineHeight: 1.12,
+                  letterSpacing: '-0.03em',
+                }}>
+                  Grow Your Business with Pepperdine Students
+                </h1>
+
+                <p data-gsap="fade-up"
+                  style={{ color: isDark ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.6)', fontSize: '1.05rem', lineHeight: 1.75, margin: 0 }}>
+                  Join Malibu&apos;s fastest-growing student marketplace. List your business for free and connect with nearly 10,000 Pepperdine Waves across Malibu, West LA, Calabasas, and Irvine.
+                </p>
+
+                <div data-gsap="fade-up" style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
+                  <Link href="#contact" className="btn btn-accent">
+                    <div className="btn-title"><span>🏪 List Your Business</span></div>
+                    <div className="icon-circle"><i className="fa-solid fa-arrow-right"></i></div>
+                  </Link>
+                  <Link href="/students" className="btn btn-outline" style={{
+                    borderRadius: 999, padding: '12px 24px', fontWeight: 600,
+                    border: `2px solid ${isDark ? 'rgba(255,255,255,0.2)' : 'rgba(139,18,223,0.25)'}`,
+                    display: 'inline-flex', alignItems: 'center', gap: 8,
+                  }}>
+                    Learn More
+                  </Link>
+                </div>
+
+                {/* Trust bar */}
+                <div data-gsap="fade-up" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <div style={{ display: 'flex' }}>
+                    {['store1','store2','store3','store4'].map(u => (
+                      <img key={u} src={`https://i.pravatar.cc/150?u=${u}`} alt="Merchant"
+                        style={{ width: 34, height: 34, borderRadius: '50%', border: `2px solid ${isDark ? '#0B0014' : '#f0f0fb'}`, marginLeft: -8 }} />
+                    ))}
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, color: isDark ? '#fff' : '#0f0f1a', fontSize: '0.9rem' }}>Local Malibu Businesses</div>
+                    <div style={{ color: isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)', fontSize: '0.78rem' }}>Free to join • No contracts • No commissions</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ── RIGHT: Hero Video ── */}
+              <div className="hero-image-col" data-gsap="fade-right" style={{ position: 'relative' }}>
+                <div style={{
+                  borderRadius: 24, overflow: 'hidden', position: 'relative',
+                  boxShadow: isDark
+                    ? '0 24px 80px rgba(139,18,223,0.35), 0 0 0 1px rgba(255,255,255,0.08)'
+                    : '0 24px 60px rgba(139,18,223,0.2), 0 0 0 1px rgba(139,18,223,0.12)',
+                }}>
+                  <video
+                    autoPlay muted loop playsInline
+                    style={{ width: '100%', aspectRatio: '1/1', maxHeight: 520, objectFit: 'cover', display: 'block' }}
+                  >
+                    <source src="/merc.mp4" type="video/mp4" />
+                  </video>
+                  {/* Brand gradient overlay */}
+                  <div style={{
+                    position: 'absolute', inset: 0,
+                    background: isDark
+                      ? 'linear-gradient(135deg, rgba(139,18,223,0.2) 0%, rgba(255,16,69,0.1) 100%)'
+                      : 'linear-gradient(135deg, rgba(139,18,223,0.08) 0%, rgba(255,98,0,0.06) 100%)',
+                    pointerEvents: 'none',
+                  }} />
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* ─── Expertise section (what we offer) ─── */}
       <div className="section">
         <div className="hero-container">
           <div className="d-flex flex-column flex-xl-row gspace-5">
             <div className="expertise-img-layout">
               <div className="image-container expertise-img" style={{ borderRadius: '24px', overflow: 'hidden' }}>
-                <img src="https://images.unsplash.com/photo-1621788959150-f4a9955e65e8?auto=format&fit=crop&w=600&q=80" alt="Merchants" className="img-fluid " data-gsap="fade-up" />
+                <img src="https://images.unsplash.com/photo-1621788959150-f4a9955e65e8?auto=format&fit=crop&w=600&q=80" alt="Malibu merchants" className="img-fluid" data-gsap="fade-up" />
                 <div className="expertise-layout">
                   <div className="d-flex flex-column">
                     <div className="card-expertise-wrapper">
                       <div className="card card-expertise " data-gsap="fade-up">
-                        <h4>Ready to Reach 40,000+ Pepperdine Students?</h4>
-                        <p>Your deal goes live within 48 hours of your onboarding call — completely free.</p>
+                        <h4>Ready to Reach Nearly 10,000 Pepperdine Students?</h4>
+                        <p>Your deal goes live within 48 hours — reaching 3,500+ undergrads on the Malibu campus and nearly 10,000 students across all Pepperdine locations. Completely free.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
                           <Link href="#contact">Schedule Free Onboarding</Link>
                           <i className="fa-solid fa-circle-arrow-right"></i>
@@ -71,7 +164,7 @@ export default function MerchantsPage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 Grow Your Business with the Pepperdine Student Community
               </h2>
-              <p>The Movement connects your business to a captive, engaged audience of 40,000+ Pepperdine Waves — all actively looking for deals near campus. No advertising spend needed.</p>
+              <p>The Movement connects your business to a captive, engaged audience of nearly 10,000 Pepperdine Waves across Southern California — with 3,553 undergraduates concentrated right on the Malibu campus. No advertising spend needed.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>What You Get</h5>
@@ -143,13 +236,13 @@ export default function MerchantsPage() {
       </div>
 
       <PartnerSection
-        heading="Trusted by 100+ Malibu Businesses"
+        heading="Trusted by Local Malibu Businesses"
         desc="From neighborhood restaurants to gyms and boutiques — local merchants across Malibu trust The Movement to connect them with Pepperdine students every day."
       />
 
       <GuideBand
         title="Ready to Grow with The Movement?"
-        desc="Join 100+ local Malibu businesses reaching Pepperdine's student community. Schedule a free 20-minute onboarding call today."
+        desc="Be among the first Malibu businesses to reach the Pepperdine student community. Schedule a free 20-minute onboarding call today."
         linkLabel="Schedule Free Call"
         linkHref="#contact"
       />
@@ -206,6 +299,39 @@ export default function MerchantsPage() {
           </div>
         </div>
         <div className="spacer"></div>
+      </div>
+
+      {/* ─── CSR: Host a Fundraiser ─── */}
+      <div className="section">
+        <div className="hero-container">
+          <div className="card" style={{
+            padding: '48px 40px',
+            borderRadius: 24,
+            background: 'linear-gradient(135deg, rgba(255,98,0,0.08) 0%, rgba(139,18,223,0.12) 100%)',
+            border: '1px solid rgba(139,18,223,0.2)',
+            backdropFilter: 'blur(20px)',
+          }}>
+            <div className="d-flex flex-column flex-xl-row gspace-5 align-items-center">
+              <div style={{ flex: 1 }}>
+                <div className="sub-heading" style={{ marginBottom: 16 }}>
+                  <i className="fa-regular fa-circle-dot"></i>
+                  <span>Community Initiative</span>
+                </div>
+                <h3 className="title-heading" style={{ marginBottom: 16 }}>
+                  Host a Fundraiser Night — Give Back to the Community
+                </h3>
+                <p style={{ lineHeight: 1.8 }}>
+                  Partner with The Movement and Change the Cycle Inc. to host a student fundraiser night at your Malibu business. It&apos;s good for your brand, great for foot traffic, and life-changing for girls around the world who need access to education. Change the Cycle Inc. is a Calabasas-based nonprofit that empowers underserved girls through STEM education and job placement — in Los Angeles, Sri Lanka, Ghana, and Uganda. Local businesses that host fundraiser events get featured prominently on The Movement platform and in our campus outreach.
+                </p>
+                <Link href="#contact" className="btn btn-accent" style={{ marginTop: 8 }}>
+                  <div className="btn-title"><span>Get Involved — Contact Us About Hosting</span></div>
+                  <div className="icon-circle"><i className="fa-solid fa-arrow-right"></i></div>
+                </Link>
+              </div>
+              <div style={{ flexShrink: 0, fontSize: '6rem', opacity: 0.15, lineHeight: 1 }}>🤝</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* ─── FAQ ─── */}

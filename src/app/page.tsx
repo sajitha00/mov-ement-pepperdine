@@ -138,7 +138,7 @@ export default function HomePage() {
 
                 <p data-gsap="fade-up"
                   style={{ color: isDark ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.6)', fontSize: '1.05rem', lineHeight: 1.75, margin: 0 }}>
-                  The Movement connects 40,000+ Pepperdine Waves with exclusive discounts at 100+ local Malibu businesses. Free for students. Free to list for merchants.
+                  The Movement connects nearly 10,000 Pepperdine students — across Malibu, West LA, Calabasas, and Irvine — with exclusive discounts at local businesses. Free for students. Free to list for merchants.
                 </p>
 
                 <div data-gsap="fade-up" style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
@@ -157,8 +157,8 @@ export default function HomePage() {
                     ))}
                   </div>
                   <div>
-                    <div style={{ fontWeight: 700, color: isDark ? '#fff' : '#0f0f1a', fontSize: '0.95rem' }}>40,000+ students</div>
-                    <div style={{ color: isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)', fontSize: '0.8rem' }}>already saving in Malibu</div>
+                    <div style={{ fontWeight: 700, color: isDark ? '#fff' : '#0f0f1a', fontSize: '0.95rem' }}>~10,000 students across 4 campuses</div>
+                    <div style={{ color: isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)', fontSize: '0.8rem' }}>3,553 undergrads on the Malibu campus</div>
                   </div>
                 </div>
               </div>
@@ -177,16 +177,10 @@ export default function HomePage() {
                     muted
                     loop
                     playsInline
-                    style={{ width: '100%', height: 520, objectFit: 'cover', display: 'block' }}
+                    style={{ width: '100%', aspectRatio: '1/1', maxHeight: 520, objectFit: 'cover', display: 'block' }}
                   >
-                    {/* WebM for modern browsers — smaller, faster */}
                     <source
-                      src="https://res.cloudinary.com/dnhipbve9/video/upload/q_auto,f_auto/hero-video.webm"
-                      type="video/webm"
-                    />
-                    {/* MP4 fallback */}
-                    <source
-                      src="https://res.cloudinary.com/dnhipbve9/video/upload/q_auto/hero-video.mp4"
+                      src="/per.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -251,7 +245,7 @@ export default function HomePage() {
                   <div className="d-flex flex-column">
                     <div className="card-expertise-wrapper">
                       <div className="card card-expertise " data-gsap="fade-up">
-                        <h4>Ready to Reach 40,000+ Pepperdine Students?</h4>
+                        <h4>Ready to Reach Nearly 10,000 Pepperdine Students?</h4>
                         <p>Let&apos;s get your business listed for free and start driving student foot traffic today.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
                           <Link href="/merchants">Schedule Free Onboarding</Link>
@@ -275,7 +269,7 @@ export default function HomePage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 Student Deals. Local Businesses. One Platform.
               </h2>
-              <p>The Movement bridges Pepperdine Waves and the best local businesses in Malibu — helping students save and helping merchants grow through genuine community connection.</p>
+              <p>The Movement bridges Pepperdine Waves and the best local businesses in Malibu — serving a university community of nearly 10,000 students spread across Southern California, with the heart of campus life right here in Malibu.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>Who Benefits</h5>
@@ -291,9 +285,9 @@ export default function HomePage() {
                 <div className="card card-expertise card-expertise-counter " data-gsap="fade-up">
                   <div className="d-flex flex-row gspace-2 align-items-center">
                     <div className="d-flex flex-row align-items-center">
-                      <Counter target={100} /><span className="counter-detail">+</span>
+                      <span className="counter" style={{ fontSize: '2rem', fontWeight: 800 }}>🏪</span>
                     </div>
-                    <h6>Local Business Deals Available for Pepperdine Students Right Now</h6>
+                    <h6>Growing Network of Local Deals — New Merchants Added Weekly</h6>
                   </div>
                   <p>From dining to fitness, retail to professional services — all within the Malibu area near campus.</p>
                 </div>
@@ -417,12 +411,7 @@ export default function HomePage() {
         <div className="guide-banner">
           <div className="hero-container">
             <div className="guide-content " data-gsap="fade-up">
-              <div className="guide-video-container">
-                <button className="request-loader" style={{ background: 'var(--accent-color, #f04523)', border: 'none', cursor: 'pointer' }}
-                  onClick={() => window.open('https://youtu.be/VhBl3dHT5SY', '_blank')}>
-                  <i className="fa-solid fa-play"></i>
-                </button>
-                <p>See How The Movement Works</p>
+              <div className="guide-video-container" style={{ display: 'none' }}>
               </div>
               <div className="d-flex flex-column gspace-2">
                 <h3 className="title-heading">Transform Your Malibu Experience!</h3>
@@ -492,8 +481,8 @@ export default function HomePage() {
             <div className="service-link-footer">
               <p>
                 {activePath === 'merchant'
-                  ? <>Ready to reach 40,000+ Pepperdine students? <Link href="/merchants">Schedule Your Free Onboarding Call</Link></>
-                  : <>Pepperdine student? Register free and unlock 100+ local deals. <Link href="/students">Join The Movement</Link></>
+                  ? <>Ready to reach nearly 10,000 Pepperdine students? <Link href="/merchants">Schedule Your Free Onboarding Call</Link></>
+                  : <>Pepperdine student? Register free and unlock exclusive local deals. <Link href="/students">Join The Movement</Link></>
                 }
               </p>
             </div>
@@ -599,7 +588,7 @@ export default function HomePage() {
                           <img src="https://i.pravatar.cc/150?u=78" alt="Student" className="avatar" />
                         </div>
                         <div className="detail">
-                          <h6>40k+</h6>
+                          <h6>~10K</h6>
                           <h6>Pepperdine Students</h6>
                         </div>
                       </div>
@@ -740,6 +729,66 @@ export default function HomePage() {
           </div>
         </div>
         <div className="spacer"></div>
+      </div>
+
+      {/* ═══ CSR — SAVING MONEY. CHANGING LIVES. ═══ */}
+      <div className="section">
+        <div className="hero-container">
+          <div className="d-flex flex-column gspace-5">
+            <div className="d-flex flex-column justify-content-center text-center gspace-2" data-gsap="fade-up">
+              <div className="sub-heading align-self-center">
+                <i className="fa-regular fa-circle-dot"></i>
+                <span>Community Impact</span>
+              </div>
+              <h2 className="title-heading heading-container heading-container-medium">
+                Saving Money. Changing Lives.
+              </h2>
+              <p style={{ maxWidth: 720, margin: '0 auto' }}>
+                The Movement is proud to support Change the Cycle Inc. — a Calabasas-based nonprofit empowering girls worldwide through STEM education.
+              </p>
+            </div>
+
+            <div style={{ maxWidth: 860, margin: '0 auto', textAlign: 'center' }}>
+              <p style={{ lineHeight: 1.8, marginBottom: 36 }}>
+                While you save on food, fitness, and fun — a portion of The Movement&apos;s community impact goes toward something bigger. Change the Cycle Inc. is dedicated to breaking the cycle of poverty for underserved girls and young women through education, job training, and financial support — in Los Angeles, Sri Lanka, Ghana, Uganda, and beyond. As a Pepperdine Wave, you have the power to make a real difference simply by being part of The Movement community.
+              </p>
+
+              {/* Stat tiles */}
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 20, marginBottom: 40 }}>
+                {[
+                  { label: 'Girls Supported', value: 'In multiple countries across 3 continents', icon: '🌍' },
+                  { label: 'Focus Area', value: 'STEM Education + Career Placement', icon: '💻' },
+                  { label: 'Based In', value: 'Calabasas, CA — our backyard', icon: '📍' },
+                ].map(tile => (
+                  <div key={tile.label} className="card" style={{
+                    padding: '32px 24px',
+                    borderRadius: 20,
+                    textAlign: 'center',
+                    background: isDark
+                      ? 'linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(139,18,223,0.08) 100%)'
+                      : 'linear-gradient(135deg, rgba(139,18,223,0.04) 0%, rgba(224,16,110,0.06) 100%)',
+                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.08)' : 'rgba(139,18,223,0.12)'}`,
+                  }}>
+                    <div style={{ fontSize: '2rem', marginBottom: 12 }}>{tile.icon}</div>
+                    <h5 style={{ fontWeight: 700, marginBottom: 8, background: 'linear-gradient(135deg,#FF6200,#8B12DF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>{tile.label}</h5>
+                    <p style={{ margin: 0, fontSize: '0.9rem', opacity: 0.7 }}>{tile.value}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* CTA buttons */}
+              <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
+                <a href="https://www.changethecycleinc.com/" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
+                  <div className="btn-title"><span>Learn More About Change the Cycle</span></div>
+                  <div className="icon-circle"><i className="fa-solid fa-arrow-up-right-from-square"></i></div>
+                </a>
+                <Link href="/merchants" className="btn btn-outline" style={{ borderRadius: 999, padding: '12px 28px', fontWeight: 700, border: `2px solid ${isDark ? 'rgba(255,255,255,0.2)' : 'rgba(139,18,223,0.3)'}`, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                  Host a Fundraiser at Your Business
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* ═══ FAQ ═══ */}
