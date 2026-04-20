@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 /**
  * AnimationProvider (replaces old GSAPProvider)
  * Simple IntersectionObserver — no GSAP, no template JS.
- * Adds `.in-view` class when elements scroll into viewport.
+ * Adds `.in-view` class when elements scroll into viewporsst.
  */
 export default function GSAPProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
