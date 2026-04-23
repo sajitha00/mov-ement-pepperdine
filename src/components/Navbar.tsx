@@ -23,7 +23,7 @@ export default function Navbar() {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
-    { href: '/malibu', label: 'Malibu' },
+    { href: '/pepperdine', label: 'Pepperdine' },
     { href: '/merchants', label: 'Merchants' },
     { href: '/students', label: 'Students' },
     { href: '/community', label: 'Community' },

@@ -69,7 +69,7 @@ export default function MerchantsPage() {
 
                 <p data-gsap="fade-up"
                   style={{ color: isDark ? 'rgba(255,255,255,0.85)' : 'rgba(0,0,0,0.65)', fontSize: '1.15rem', lineHeight: 1.75, margin: 0 }}>
-                  Join Malibu&apos;s fastest-growing student marketplace. List your business for free and connect with nearly 10,000 Pepperdine Waves.
+                  Join Malibu&apos;s fastest-growing student marketplace. List your business for free and connect with nearly 10,000 Pepperdine students.
                 </p>
 
                 <div data-gsap="fade-up" style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
@@ -164,7 +164,7 @@ export default function MerchantsPage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 Grow Your Business with the Pepperdine Student Community
               </h2>
-              <p>Connect your business to nearly 10,000 Pepperdine Waves — with 3,553 undergrads right on the Malibu campus. No advertising spend needed.</p>
+              <p>Connect your business to nearly 10,000 Pepperdine students — with 3,553 undergrads right on the Malibu campus. No advertising spend needed.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>What You Get</h5>
@@ -235,10 +235,7 @@ export default function MerchantsPage() {
         </div>
       </div>
 
-      <PartnerSection
-        heading="Trusted by Local Malibu Businesses"
-        desc="From neighborhood restaurants to gyms and boutiques — local merchants across Malibu trust The Movement to connect them with Pepperdine students every day."
-      />
+
 
       <GuideBand
         title="Ready to Grow with The Movement?"
@@ -318,7 +315,7 @@ export default function MerchantsPage() {
                   <span>Community Initiative</span>
                 </div>
                 <h3 className="title-heading" style={{ marginBottom: 16 }}>
-                  Host a Fundraiser Night — Give Back to the Community
+                  Do Good. Drive Business. Host a Fundraiser Night.
                 </h3>
                 <p style={{ lineHeight: 1.8 }}>
                   Partner with The Movement and Change the Cycle Inc. to host a student fundraiser night at your business. Great for your brand, great for foot traffic, and life-changing for girls around the world who need access to education.

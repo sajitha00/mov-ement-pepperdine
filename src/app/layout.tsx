@@ -9,7 +9,7 @@ import GSAPProvider from "@/components/GSAPProvider";
  */
 import "./globals.css";
 
-const SITE_URL = "https://themovementpepperdine.com"; // UPDATE THIS BEFORE LAUNCH
+const SITE_URL = "https://www.pepperdinemovement.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Pepperdine university deals",
     "Malibu cafes deals",
     "Malibu fitness discounts",
-    "Pepperdine Waves",
+    "Pepperdine Students",
     "The Movement Pepperdine",
   ],
   authors: [{ name: "The Movement", url: SITE_URL }],

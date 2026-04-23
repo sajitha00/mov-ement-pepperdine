@@ -9,7 +9,7 @@ export default function AboutPage() {
   const testimonials = [
     { name: 'James M.', role: 'Senior, Computer Science', quote: 'I save $40–60 every single week using The Movement. The deals near campus are incredible.', img: 'https://i.pravatar.cc/150?u=James' },
     { name: 'Sarah R.', role: 'Owner, Riverside Café', quote: 'Our student foot traffic doubled in two months. Effortless onboarding and amazing ROI.', img: 'https://i.pravatar.cc/150?u=Sarah' },
-    { name: 'Amara L.', role: 'Junior, Marketing', quote: 'Every Wave needs The Movement. New deals pop up constantly — love it.', img: 'https://i.pravatar.cc/150?u=Amara' },
+    { name: 'Amara L.', role: 'Junior, Marketing', quote: 'Every student needs The Movement. New deals pop up constantly — love it.', img: 'https://i.pravatar.cc/150?u=Amara' },
     { name: 'Marcus K.', role: 'Owner, Wave Cuts', quote: 'Students who come through The Movement are loyal. Best decision I made all year.', img: 'https://i.pravatar.cc/150?u=Marcus' },
   ];
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
                   </div>
                   <div className="about-list">
                     <ul className="check-list">
-                      <li><Link href="/malibu">Pepperdine Campus Focus</Link></li>
+                      <li><Link href="/pepperdine">Pepperdine Campus Focus</Link></li>
                       <li><Link href="/merchants">Merchant Dashboard</Link></li>
                       <li><Link href="/happening">Weekly New Deals</Link></li>
                     </ul>
@@ -76,10 +76,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <PartnerSection
-        heading="Trusted by Local Malibu Businesses"
-        desc="From neighborhood restaurants to gyms and boutiques — merchants across Malibu trust The Movement to connect them with Pepperdine students."
-      />
+
 
       {/* ─── Core Values ─── */}
       <div className="section">
@@ -214,7 +211,7 @@ export default function AboutPage() {
                       <span>What the Community Says</span>
                     </div>
                     <h2 className="title-heading">Real Stories from Students &amp; Merchants</h2>
-                    <p>Discover how Pepperdine Waves and local Malibu businesses are thriving together.</p>
+                    <p>Discover how Pepperdine students and local Malibu businesses are thriving together.</p>
                   </div>
                 </div>
               </div>

@@ -1,9 +1,167 @@
 [
-  { "type": "event", "cat": "Community", "title": "Author Event! Kerry Docherty with Jedidiah Jenkins & Sarah Wright Olsen", "date": "Tuesday • 6:00 PM", "dateSort": "2026-04-28", "img": "https://images.unsplash.com/photo-1544928147-79a2dbc1f389?auto=format&fit=crop&w=600&q=80", "desc": "Join this Pepperdine author event.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/author-event-kerry-docherty-with-jedidiah-jenkins-sarah-wright-olsen-tickets-1986352210934" },
-  { "type": "event", "cat": "Community", "title": "UCLA Stunt Ranch Reserve: Cold Creek Watershed Tour", "date": "Sun, May 31 • 10:00 AM", "dateSort": "2026-05-31", "img": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80", "desc": "Explore the Cold Creek Watershed near Malibu.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/ucla-stunt-ranch-reserve-cold-creek-watershed-tour-w-nathanael-dardano-tickets-1987457756651" },
-  { "type": "event", "cat": "Community", "title": "Honoring the Legacy of Dr. William E. Pannell", "date": "Wed, Jun 24 • 6:00 PM", "dateSort": "2026-06-24", "img": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=80", "desc": "Join the Pepperdine community in honoring Dr. William E. Pannell.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/honoring-the-legacy-of-dr-william-e-pannell-tickets-1987265852661" },
-  { "type": "event", "cat": "Community", "title": "Matcha + Meetup | Coffee for Creatives w/ TV Executive", "date": "Tomorrow • 12:00 PM", "dateSort": "2026-04-25", "img": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80", "desc": "Networking meetup for creatives.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/matcha-meetup-coffee-for-creatives-w-tv-executive-tickets-1988003330477" },
-  { "type": "event", "cat": "Community", "title": "Storytime w/ Livia Blackburne", "date": "Sat, May 2 • 11:00 AM", "dateSort": "2026-05-02", "img": "https://images.unsplash.com/photo-1474932430478-367d16b99031?auto=format&fit=crop&w=600&q=80", "desc": "Pepperdine community storytime.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/storytime-w-livia-blackburne-tickets-1986769554219" },
-  { "type": "event", "cat": "Nightlife", "title": "Pier Luau", "date": "Sat, May 16 • 5:00 PM", "dateSort": "2026-05-16", "img": "https://images.unsplash.com/photo-1533174000255-22b14300a75f?auto=format&fit=crop&w=600&q=80", "desc": "Join the Pier Luau with fellow Waves.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/pier-luau-tickets-1986179672868" },
-  { "type": "event", "cat": "Music", "title": "SALT + PEPPER PRESENTS: 1 YEAR ANNIVERSARY SHOW", "date": "Wed, May 27 • 7:00 PM", "dateSort": "2026-05-27", "img": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80", "desc": "Live anniversary show for the Pepperdine community.", "source": "eventbrite", "url": "https://www.eventbrite.com/e/salt-pepper-presents-1-year-anniversary-show-tickets-1985458438637" }
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Author Event! Kerry Docherty with Jedidiah Jenkins & Sarah Wright Olsen",
+    "date": "Going fast",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182363085%2F1381878547473%2F1%2Foriginal.20260416-213056?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=337e481ae146b186ac64234e2077b790",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/author-event-kerry-docherty-with-jedidiah-jenkins-sarah-wright-olsen-tickets-1986352210934"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "UCLA Stunt Ranch Reserve: Cold Creek Watershed Tour w/ Nathanael Dardano",
+    "date": "Sun, May 31 •  10:00 AM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182185214%2F2988638532416%2F1%2Foriginal.20260414-225635?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bf0967f638d618a8b798c22a1214cd8c",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/ucla-stunt-ranch-reserve-cold-creek-watershed-tour-w-nathanael-dardano-tickets-1987457756651"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Wende Museum Spring 2026 Exhibition Opening",
+    "date": "Sales end soon",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181548253%2F248059746793%2F1%2Foriginal.20260406-223732?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3553992c9e2ef5c6f1ccb6c861880394",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/wende-museum-spring-2026-exhibition-opening-tickets-1986857377902"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "InfoDine with Newly Electeds",
+    "date": "Tue, Nov 17 •  5:30 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181449690%2F18752081103%2F1%2Foriginal.20260405-012946?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.489&fp-y=0.352&s=ab82b86bc43fbcc177cc3e7815d13c71",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/infodine-with-newly-electeds-tickets-1986718085274"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Honoring the Legacy of Dr. William E. Pannell",
+    "date": "Wed, Jun 24 •  6:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181977832%2F211245642414%2F1%2Foriginal.20260412-165817?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6136ea40c6255602d4c0517fc4fbc852",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/honoring-the-legacy-of-dr-william-e-pannell-tickets-1987265852661"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Matcha + Meetup | Coffee for Creatives w/ TV Executive",
+    "date": "Sales end soon",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182400627%2F935412228013%2F1%2Foriginal.20260417-123401?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.452&fp-y=0.532&s=2e1b70d7e6eb161dd1e5becb2acc1954",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/matcha-meetup-coffee-for-creatives-w-tv-executive-tickets-1988003330477"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Storytime w/ Livia Blackburne",
+    "date": "Sat, May 2 •  11:00 AM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181469958%2F1251308863123%2F1%2Foriginal.20260405-190555?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6172a5b1231b7cb9a3e5481933df8c2d",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/storytime-w-livia-blackburne-tickets-1986769554219"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Pier  Luau",
+    "date": "Sat, May 16 •  5:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180965136%2F1510538909473%2F1%2Foriginal.20260330-031133?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.286&fp-y=0.984&s=05437755c55f8940d5825e02dce07a04",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/pier-luau-tickets-1986179672868"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "SALT + PEPPER PRESENTS: 1 YEAR ANNIVERSARY SHOW",
+    "date": "Wed, May 27 •  7:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180164273%2F2735803615791%2F1%2Foriginal.20260318-182403?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.757&fp-y=0.201&s=fc5e805ec71dbdc29ce0ef46bcbaa454",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/salt-pepper-presents-1-year-anniversary-show-tickets-1985458438637"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Peppermania",
+    "date": "Sales end soon",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181799353%2F36721670842%2F1%2Foriginal.20260409-164849?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=79eb266c03abaec2ff7bed152412d537",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/peppermania-tickets-1987072592615"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "MONSTERPALOOZA - Pasadena  - 2026",
+    "date": "Fri, May 29 •  6:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181223050%2F155071096008%2F1%2Foriginal.20260401-182542?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.152&fp-y=0.513&s=7574ae69af5e396a1f2d3a2e5fc00507",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/monsterpalooza-pasadena-2026-tickets-1918071035099"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "LA CHONA FEST: Los Tucanes, Los Rieleros, Los Tiranos, Los Cadetes y mas!",
+    "date": "Almost full",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182188430%2F147741123875%2F1%2Foriginal.20260414-235132?w=640&auto=format%2Ccompress&q=75&sharp=10&s=3faf160a5d0992ba1e0e507cacfb202e",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/la-chona-fest-los-tucanes-los-rieleros-los-tiranos-los-cadetes-y-mas-tickets-1981792727396"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "626 Night Market - Costa Mesa | May 29-31, 2026",
+    "date": "Fri, May 29 •  3:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176281615%2F2526720971111%2F1%2Foriginal.20260130-190117?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5bf349672ba10d7926cc520966cb6abb",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/626-night-market-costa-mesa-may-29-31-2026-tickets-1977106358340"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "Los Angeles  Career Fair",
+    "date": "Almost full",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F694917629%2F183327965130%2F1%2Foriginal.20240212-002815?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2100%2C1050&s=40f8439b119a1e776d0586c22dd5917a",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/los-angeles-career-fair-tickets-122692597863"
+  },
+  {
+    "type": "event",
+    "cat": "Community",
+    "title": "2026 FuelFest Southern California",
+    "date": "Sat, Jun 13 •  2:00 PM",
+    "dateSort": "2026-12-31",
+    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173168527%2F108728874441%2F1%2Foriginal.20251217-225457?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42d7c283db7a9be516f64891157c0b9d",
+    "desc": "Join this community event for the Pepperdine community.",
+    "source": "eventbrite",
+    "url": "https://www.eventbrite.com/e/2026-fuelfest-southern-california-tickets-1721275263649"
+  }
 ]

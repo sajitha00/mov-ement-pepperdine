@@ -80,10 +80,10 @@ export default function HomePage() {
   ];
 
   const studentSteps = [
-    { n: '01', icon: '/digital-marketing-icons-N952ZWA.png', title: 'Register Free', desc: 'Sign up with your Pepperdine email. Verified in under 2 minutes — no paperwork, no cost.' },
+    { n: '01', icon: '/digital-marketing-icons-N952ZWA.png', title: 'Register Free', desc: 'Sign up with your phone number. Verified in under 2 minutes — no paperwork, no cost.' },
     { n: '02', icon: '/Icon-11.png', title: 'Browse Deals', desc: 'Explore 100+ exclusive deals at restaurants, gyms, retail stores, and services near campus.' },
-    { n: '03', icon: '/Icon-10.png', title: 'Show & Save', desc: 'Visit the merchant, show your digital Movement student pass on your phone, and save instantly.' },
-    { n: '04', icon: '/Icon-12.png', title: 'Share & Earn', desc: 'Refer fellow Waves and earn bonus credits toward even more deals.' },
+    { n: '03', icon: '/Icon-10.png', title: 'Show & Save', desc: 'Visit the merchant, show your digital Movement student pass on your phone, and save 10-25% instantly.' },
+    { n: '04', icon: '/Icon-12.png', title: 'Share & Earn', desc: 'Refer fellow students and earn bonus credits toward even more deals.' },
   ];
 
   const steps = activePath === 'merchant' ? merchantSteps : studentSteps;
@@ -91,13 +91,13 @@ export default function HomePage() {
   const merchantFaqs = [
     { q: 'How much does it cost to list my business?', a: 'Listing is completely free. We also offer premium visibility tiers for businesses that want to appear higher in student searches and get featured promotions.' },
     { q: 'What type of businesses can join?', a: 'Any local business near the Pepperdine Malibu campus — restaurants, gyms, retail, salons, entertainment venues, and service providers.' },
-    { q: 'How does student verification work?', a: 'Students verify their Pepperdine enrollment through their .edu email. They show their digital Movement pass on their phone to redeem discounts.' },
+    { q: 'How does student verification work?', a: 'Students verify their enrollment via phone number. They show their digital Movement pass on their phone to redeem discounts.' },
     { q: 'How quickly can I get listed?', a: 'After your onboarding call, we typically have your profile live within 24–48 business hours.' },
   ];
 
   const studentFaqs = [
     { q: 'Is The Movement free for students?', a: 'Yes — always. Student registration is 100% free. No hidden fees, no subscription, no credit card required.' },
-    { q: 'How do I verify my student status?', a: 'Simply register with your Pepperdine .edu email address. We send a verification link and your account is active within minutes.' },
+    { q: 'How do I verify my student status?', a: 'Simply register with your phone number at signup.movement.college. Your account is active within minutes.' },
     { q: 'Can I use deals at multiple businesses?', a: 'Absolutely. Your student pass works at every participating merchant — use it as often as you like.' },
     { q: 'Can international students join?', a: 'Yes! Any currently enrolled Pepperdine student with a .edu email qualifies, regardless of residency status.' },
   ];
@@ -133,12 +133,12 @@ export default function HomePage() {
                   lineHeight: 1.12,
                   letterSpacing: '-0.03em',
                 }}>
-                  The #1 Student Deal Platform for Pepperdine Waves
+                  Exclusive Deals for Pepperdine University Students
                 </h1>
 
                 <p data-gsap="fade-up"
                   style={{ color: isDark ? 'rgba(255,255,255,0.85)' : 'rgba(0,0,0,0.65)', fontSize: '1.15rem', lineHeight: 1.75, margin: 0 }}>
-                  Exclusive discounts at 100+ local Malibu businesses — free for all Pepperdine students. Free to list for merchants.
+                  Get 100% free access to exclusive 10-25% savings at local-only Malibu businesses. No chain stores. Just real deals for the campus community.
                 </p>
 
                 <div data-gsap="fade-up" style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
@@ -269,7 +269,7 @@ export default function HomePage() {
               <h2 className="title-heading " data-gsap="fade-right">
                 Student Deals. Local Businesses. One Platform.
               </h2>
-              <p>The Movement bridges Pepperdine Waves and the best local businesses in Malibu — serving nearly 10,000 students with real deals near campus.</p>
+              <p>The Movement bridges Pepperdine students and the best local businesses in Malibu — serving nearly 10,000 students with real deals near campus.</p>
               <div className="d-flex flex-column flex-md-row gspace-2">
                 <div className="expertise-list">
                   <h5>Who Benefits</h5>
@@ -295,40 +295,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ═══ PARTNER TICKER ═══ */}
-      <div className="section-partner">
-        <div className="hero-container">
-          <div className="card card-partner " data-gsap="fade-right">
-            <div className="partner-spacer"></div>
-            <div className="row row-cols-xl-2 row-cols-1 align-items-center px-5 position-relative z-2">
-              <div className="col">
-                <div className="d-flex flex-column justify-content-start pe-xl-3 pe-0">
-                  <h3 className="title-heading">Trusted by Local Malibu Businesses</h3>
-                </div>
-              </div>
-              <div className="col">
-                <div className="d-flex flex-column ps-xl-3 ps-0">
-                  <p>From dining to fitness, retail to services — all near campus.</p>
-                </div>
-              </div>
-            </div>
-            <div className="swiperPartner-layout">
-              <div className="swiperPartner-overlay"><div className="spacer"></div></div>
-              <div className="swiperPartner-container">
-                {/* Static ticker using CSS animation — no Swiper needed */}
-                <div style={{ display: 'flex', gap: 48, overflow: 'hidden', padding: '16px 0' }}>
-                  {['Client-1.png','Client-2.png','Client-3.png','Client-4.png','Client-5.png','Client-6.png','Client-7.png','Client-8.png',
-                    'Client-1.png','Client-2.png','Client-3.png','Client-4.png'].map((img, i) => (
-                    <div key={i} className="partner-slide" style={{ flexShrink: 0 }}>
-                      <img src={`/${img}`} alt="Partner" className="img-fluid" style={{ height: 50, opacity: 0.6, filter: 'grayscale(1)' }} />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       {/* ═══ WHY CHOOSE US ═══ */}
       <div className="section">
@@ -338,7 +305,7 @@ export default function HomePage() {
             <div className="col order-md-1 order-2">
               <div className="d-flex flex-column gspace-2">
                 {[
-                  { icon: '/Icon-2.png', title: 'Free for Every Student', desc: 'Every Pepperdine Wave gets 100% free access to all deals — no credit card, no catch.' },
+                  { icon: '/Icon-2.png', title: 'Free for Every Student', desc: 'Every Pepperdine student gets 100% free access to all deals — no credit card, no catch.' },
                   { icon: '/icon-1.png', title: 'Real Local Businesses Only', desc: 'Every merchant is a real Malibu business near campus — no chains, no gimmicks.' },
                   { icon: '/Icon-3.png', title: 'Deals that Save You Money', desc: 'Our deals average 10–25% off on food, fitness, retail, and services you use weekly.' },
                 ].map((item, idx) => (
@@ -505,7 +472,7 @@ export default function HomePage() {
                 </div>
                 <div className="col">
                   <div className="d-flex flex-column h-100 justify-content-end gspace-2 " data-gsap="fade-right">
-                    <p>From restaurants that doubled their student traffic to Waves saving hundreds per semester — The Movement delivers real results for both sides.</p>
+                    <p>From restaurants that doubled their student traffic to students saving hundreds per semester — The Movement delivers real results for both sides.</p>
                     <div className="link-wrapper">
                       <Link href="/happening">More Stories</Link>
                       <i className="fa-solid fa-circle-arrow-right"></i>
@@ -552,7 +519,7 @@ export default function HomePage() {
                   </div>
                   <div className="card case-studies-content startup-branding " data-gsap="fade-up">
                     <div className="d-flex flex-column gspace-2">
-                      <a href="#" className="case-studies-title"><h4>Style Local — 25% Off for Waves</h4></a>
+                      <a href="#" className="case-studies-title"><h4>Style Local — 25% Off for Students</h4></a>
                       <p>Spring styles just dropped. 25% off everything in store — exclusive to Movement members.</p>
                     </div>
                     <div className="case-studies-component large align-self-start justify-content-start align-items-start">
@@ -627,7 +594,7 @@ export default function HomePage() {
                       <span>What the Community Says</span>
                     </div>
                     <h2 className="title-heading">Real Stories from Students &amp; Merchants</h2>
-                    <p>Discover how Pepperdine Waves and local Malibu businesses are thriving with The Movement.</p>
+                    <p>Discover how Pepperdine students and local Malibu businesses are thriving with The Movement.</p>
                   </div>
                 </div>
               </div>
@@ -640,7 +607,7 @@ export default function HomePage() {
                   {[
                     { name: 'James M.', role: 'Senior, CS', quote: 'I save $40–60 every week. The deals near campus are genuinely incredible.', img: 'https://i.pravatar.cc/150?u=James' },
                     { name: 'Sarah R.', role: 'Owner, Riverside Café', quote: 'Our student foot traffic doubled in two months. The ROI has been incredible.', img: 'https://i.pravatar.cc/150?u=Sarah' },
-                    { name: 'Amara L.', role: 'Junior, Marketing', quote: 'Every Wave needs The Movement. New deals pop up constantly — I\'ve discovered so many great local spots.', img: 'https://i.pravatar.cc/150?u=Amara' },
+                    { name: 'Amara L.', role: 'Junior, Marketing', quote: 'Every student needs The Movement. New deals pop up constantly — I\'ve discovered so many great local spots.', img: 'https://i.pravatar.cc/150?u=Amara' },
                     { name: 'Marcus K.', role: 'Owner, Wave Cuts', quote: 'Students from The Movement are loyal. They keep coming back and bring their friends.', img: 'https://i.pravatar.cc/150?u=Marcus' },
                   ].map(t => (
                     <div key={t.name} className="card card-testimonial " data-gsap="fade-up">
@@ -858,8 +825,8 @@ export default function HomePage() {
                 <form onSubmit={e => e.preventDefault()} className="" data-gsap="fade-right">
                   <div className="input-container">
                     <input
-                      type="email"
-                      placeholder="Enter your Pepperdine email address"
+                      type="tel"
+                      placeholder="Enter your phone number"
                       required
                       style={{
                         background: isDark ? 'rgba(255,255,255,0.05)' : '#fff',
@@ -903,7 +870,7 @@ export default function HomePage() {
               </div>
               <div className="col col-xl-4">
                 <div className="d-flex flex-column gspace-2 justify-content-end h-100 " data-gsap="fade-right">
-                  <p>New deals, limited-time offers, and campus events updated weekly for Pepperdine Waves.</p>
+                  <p>New deals, limited-time offers, and campus events updated weekly for Pepperdine students.</p>
                   <div className="link-wrapper">
                     <Link href="/happening">View All Deals</Link>
                     <i className="fa-solid fa-circle-arrow-right"></i>
@@ -913,7 +880,7 @@ export default function HomePage() {
             </div>
             <div className="row row-cols-md-2 row-cols-1 grid-spacer-3">
               {[
-                { date: 'Apr 18, 2025', cat: 'Event', title: 'Pepperdine Spring Block Party Night', desc: 'The Movement is partnering with local venues to throw the biggest student night of the semester. Exclusive entry deals for Waves.', img: 'https://images.unsplash.com/photo-1688602082765-4619f9b6f844?auto=format&fit=crop&w=1200&q=85' },
+                { date: 'Apr 18, 2025', cat: 'Event', title: 'Pepperdine Spring Block Party Night', desc: 'The Movement is partnering with local venues to throw the biggest student night of the semester. Exclusive entry deals for students.', img: 'https://images.unsplash.com/photo-1688602082765-4619f9b6f844?auto=format&fit=crop&w=1200&q=85' },
                 { date: 'Ends Apr 30', cat: 'Deal', title: "Wave's Pizza — Finals Week 30% Off", desc: "Fuel your study sessions during finals week with the best pizza near campus. Show your Movement pass at the counter.", img: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=85' },
               ].map(blog => (
                 <div className="col" key={blog.title}>

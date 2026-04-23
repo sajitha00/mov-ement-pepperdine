@@ -17,11 +17,11 @@ export default function CommunityPage() {
   ];
 
   const countries = [
-    { flag: '🇺🇸', name: 'Los Angeles, USA' },
-    { flag: '🇱🇰', name: 'Sri Lanka' },
-    { flag: '🇬🇭', name: 'Ghana' },
-    { flag: '🇺🇬', name: 'Uganda' },
-    { flag: '🇵🇬', name: 'Papua New Guinea' },
+    { flag: '🇺🇸', name: 'Los Angeles, USA', desc: 'HQ & Local STEM Programs' },
+    { flag: '🇱🇰', name: 'Sri Lanka', desc: 'Educational Access Initiatives' },
+    { flag: '🇬🇭', name: 'Ghana', desc: 'Girls IT & Tech Education' },
+    { flag: '🇺🇬', name: 'Uganda', desc: 'Career Placement Support' },
+    { flag: '🇵🇬', name: 'Papua New Guinea', desc: 'Sustainable Independence' },
   ];
 
   return (
@@ -55,17 +55,17 @@ export default function CommunityPage() {
           <div className="d-flex flex-column flex-xl-row gspace-5">
             {/* Image */}
             <div className="expertise-img-layout">
-              <div className="image-container expertise-img" style={{ borderRadius: 24, overflow: 'hidden' }}>
+              <div style={{ borderRadius: 24, overflow: 'hidden', height: 'auto', position: 'relative' }}>
                 <img
                   src="https://images.squarespace-cdn.com/content/v1/644853f99f27b117805f75cb/723ec9b9-685e-41e2-9ebf-e3a548e389ff/tempImagejkc33M.jpg"
                   alt="Change the Cycle Inc. Team"
-                  className="img-fluid"
+                  style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'contain' }}
                   data-gsap="fade-up"
                 />
-                <div className="expertise-layout">
-                  <div className="d-flex flex-column">
-                    <div className="card-expertise-wrapper">
-                      <div className="card card-expertise" data-gsap="fade-up">
+                <div className="expertise-layout" style={{ position: 'relative', marginTop: 24 }}>
+                  <div className="d-flex flex-column" style={{ width: '100%' }}>
+                    <div className="card-expertise-wrapper" style={{ padding: 0 }}>
+                      <div className="card card-expertise" data-gsap="fade-up" style={{ width: '100%' }}>
                         <h4>Founded 2020 — Calabasas, CA</h4>
                         <p>Right next door to Pepperdine — empowering girls through education worldwide.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
@@ -82,14 +82,17 @@ export default function CommunityPage() {
             </div>
 
             <div className="expertise-title">
-              <div className="sub-heading" data-gsap="fade-right">
-                <i className="fa-regular fa-circle-dot"></i>
-                <span>About Change the Cycle Inc.</span>
-              </div>
               <img 
                 src="https://images.squarespace-cdn.com/content/v1/644853f99f27b117805f75cb/f09f5b8d-fb8b-44eb-aa03-fef6491bc674/CTC+Primary+Logo.png?format=1500w" 
                 alt="Change the Cycle Logo" 
-                style={{ height: 70, marginBottom: 24, display: 'block' }} 
+                style={{ 
+                  maxWidth: '320px',
+                  width: '100%',
+                  height: 'auto', 
+                  marginBottom: 32, 
+                  display: 'block',
+                  filter: isDark ? 'brightness(0) invert(1)' : 'none'
+                }} 
                 data-gsap="fade-right" 
               />
               <h2 className="title-heading" data-gsap="fade-right">
@@ -114,24 +117,81 @@ export default function CommunityPage() {
       </div>
 
       {/* ─── Countries Served ─── */}
-      <div className="section">
+      <div className="section" style={{ position: 'relative' }}>
         <div className="hero-container">
-          <div className="d-flex justify-content-center" data-gsap="fade-up">
-            <div style={{
-              display: 'flex', flexWrap: 'wrap', gap: 16, justifyContent: 'center',
-            }}>
-              {countries.map(c => (
-                <div key={c.name} className="card" style={{
-                  padding: '20px 28px',
-                  borderRadius: 16,
-                  display: 'flex', alignItems: 'center', gap: 12,
-                  background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(139,18,223,0.04)',
-                  border: `1px solid ${isDark ? 'rgba(255,255,255,0.08)' : 'rgba(139,18,223,0.1)'}`,
-                }}>
-                  <span style={{ fontSize: '1.5rem' }}>{c.flag}</span>
-                  <span style={{ fontWeight: 600 }}>{c.name}</span>
+          <div className="d-flex flex-column justify-content-center text-center gspace-5">
+            <div className="d-flex flex-column gspace-2" data-gsap="fade-up">
+              <div className="sub-heading align-self-center">
+                <i className="fa-regular fa-circle-dot"></i>
+                <span>Global Reach</span>
+              </div>
+              <h2 className="title-heading heading-container heading-container-medium">
+                Empowering Women Worldwide
+              </h2>
+            </div>
+            
+            <div className="row row-cols-xl-5 row-cols-md-3 row-cols-2 grid-spacer-2 justify-content-center">
+              {countries.map((c, i) => (
+                <div className="col" key={c.name} data-gsap="fade-up" style={{ transitionDelay: `${i * 100}ms` }}>
+                  <div className="card h-100" style={{
+                    padding: '32px 24px',
+                    borderRadius: 24,
+                    display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16,
+                    background: isDark ? 'linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)' : 'linear-gradient(145deg, rgba(139,18,223,0.05) 0%, rgba(139,18,223,0.01) 100%)',
+                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.08)' : 'rgba(139,18,223,0.1)'}`,
+                    boxShadow: isDark ? '0 10px 30px rgba(0,0,0,0.2)' : '0 10px 30px rgba(139,18,223,0.05)',
+                    transition: 'all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+                    cursor: 'default'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-10px) scale(1.02)';
+                    e.currentTarget.style.boxShadow = isDark ? '0 20px 40px rgba(139,18,223,0.2)' : '0 20px 40px rgba(139,18,223,0.15)';
+                    e.currentTarget.style.borderColor = isDark ? 'rgba(255,255,255,0.15)' : 'rgba(139,18,223,0.25)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0) scale(1)';
+                    e.currentTarget.style.boxShadow = isDark ? '0 10px 30px rgba(0,0,0,0.2)' : '0 10px 30px rgba(139,18,223,0.05)';
+                    e.currentTarget.style.borderColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(139,18,223,0.1)';
+                  }}
+                  >
+                    <div style={{
+                      fontSize: '3.5rem', 
+                      lineHeight: 1,
+                      filter: 'drop-shadow(0 8px 16px rgba(0,0,0,0.15))'
+                    }}>
+                      {c.flag}
+                    </div>
+                    <div style={{ textAlign: 'center' }}>
+                      <span style={{ fontWeight: 700, fontSize: '1.1rem', display: 'block', marginBottom: 4 }}>{c.name}</span>
+                      <span style={{ fontSize: '0.85rem', opacity: 0.7 }}>{c.desc}</span>
+                    </div>
+                  </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ─── Video Placeholders ─── */}
+      <div className="section" style={{ paddingBottom: 0 }}>
+        <div className="hero-container">
+          <div className="row row-cols-xl-2 row-cols-1 grid-spacer-5">
+            <div className="col">
+              <div className="card" style={{ padding: 24, borderRadius: 24, border: '1px solid rgba(139,18,223,0.15)' }}>
+                <h4 style={{ marginBottom: 16 }}>Mission in Action</h4>
+                <div style={{ aspectRatio: '16/9', background: 'rgba(0,0,0,0.05)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ opacity: 0.5 }}>[YouTube Video Placeholder 1]</span>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card" style={{ padding: 24, borderRadius: 24, border: '1px solid rgba(139,18,223,0.15)' }}>
+                <h4 style={{ marginBottom: 16 }}>Students Making a Difference</h4>
+                <div style={{ aspectRatio: '16/9', background: 'rgba(0,0,0,0.05)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ opacity: 0.5 }}>[YouTube Video Placeholder 2]</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

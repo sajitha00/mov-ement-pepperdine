@@ -22,7 +22,7 @@ export default function Footer() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
-    { href: '/malibu', label: 'Malibu' },
+    { href: '/pepperdine', label: 'Pepperdine' },
     { href: '/merchants', label: 'Merchants' },
     { href: '/students', label: 'Students' },
   ];
@@ -90,7 +90,7 @@ export default function Footer() {
             The Movement
           </div>
           <p style={{ color: textMuted, fontSize: '0.92rem', lineHeight: 1.75, maxWidth: 280 }}>
-            Connecting Pepperdine Waves with exclusive local deals in Malibu — empowering students and helping businesses grow.
+            Connecting Pepperdine students with exclusive local deals in Malibu — empowering students and helping businesses grow.
           </p>
           <div style={{ display: 'flex', gap: 14, marginTop: 24 }}>
             {socials.map(({ icon, href }) => (

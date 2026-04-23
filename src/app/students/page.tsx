@@ -18,20 +18,20 @@ export default function StudentsPage() {
   ];
 
   const steps = [
-    { n: '01', icon: '/digital-marketing-icons-N952ZWA.png', title: 'Register Free', desc: 'Sign up with your Pepperdine .edu email. Verified in under 2 minutes — no credit card, no paperwork.' },
+    { n: '01', icon: '/digital-marketing-icons-N952ZWA.png', title: 'Register Free', desc: 'Sign up with your phone number. Verified in under 2 minutes — no credit card, no paperwork.' },
     { n: '02', icon: '/Icon-11.png', title: 'Browse 100+ Deals', desc: 'Explore exclusive deals at restaurants, gyms, retail stores, and services all near Pepperdine campus.' },
     { n: '03', icon: '/Icon-10.png', title: 'Show & Save', desc: 'Visit the merchant, show your digital Movement student pass on your phone, and save instantly.' },
-    { n: '04', icon: '/Icon-12.png', title: 'Refer & Earn', desc: 'Refer fellow Waves and earn bonus credits toward even more exclusive perks and deals.' },
+    { n: '04', icon: '/Icon-12.png', title: 'Post & Earn', desc: 'Get a $100 onboarding bonus in crypto, plus earn ongoing rewards for posting on the social app.' },
   ];
 
   const faqs = [
     { q: 'Is The Movement completely free for students?', a: 'Yes — always. Student registration is 100% free. No hidden fees, no subscription, no credit card required.' },
-    { q: 'How do I verify my student status?', a: 'Simply register with your Pepperdine .edu email address. We send a verification link and your account is active within minutes.' },
+    { q: 'How do I verify my student status?', a: 'Simply register with your phone number. We send a verification link and your account is active within minutes.' },
     { q: 'Can I use deals at multiple businesses?', a: 'Absolutely. Your student pass works at every participating merchant — use it as often as you like.' },
     { q: 'How often are new deals added?', a: 'New deals are added every week. Subscribe to our newsletter or check the Happening page to stay up to date.' },
-    { q: 'Can graduate and international students join?', a: 'Yes! Any currently enrolled Pepperdine student with a valid .edu email qualifies, regardless of program or residency status.' },
+    { q: 'Can graduate and international students join?', a: 'Yes! Any currently enrolled Pepperdine student qualifies, regardless of program or residency status.' },
     { q: 'What if a merchant doesn\'t honor my pass?', a: 'Contact us immediately at chamil.hettiarachchi@sales.movement.college. We take merchant compliance very seriously and address every issue.' },
-    { q: 'I\'m a grad student at West LA, Calabasas, or Irvine \u2014 can I join?', a: 'Yes! The Movement is open to all currently enrolled Pepperdine students across all campuses. Just sign up with your .edu email.' },
+    { q: 'I\'m a grad student at West LA, Calabasas, or Irvine \u2014 can I join?', a: 'Yes! The Movement is open to all currently enrolled Pepperdine students across all campuses: Malibu, West LA, Calabasas, and Irvine. Just sign up with your phone number.' },
   ];
 
   return (
@@ -50,7 +50,7 @@ export default function StudentsPage() {
                   <div className="d-flex flex-column">
                     <div className="card-expertise-wrapper">
                       <div className="card card-expertise " data-gsap="fade-up">
-                        <h4>Nearly 10,000 Pepperdine Waves — Join Your Community</h4>
+                        <h4>Nearly 10,000 Pepperdine Students — Join Your Community</h4>
                         <p>Register free and start saving at local businesses near campus — open to all Pepperdine students across every campus.</p>
                         <div className="d-flex align-items-center flex-row gspace-2 expertise-link">
                           <Link href="#register">Register Free Now</Link>
@@ -67,7 +67,7 @@ export default function StudentsPage() {
             <div className="expertise-title">
               <div className="sub-heading " data-gsap="fade-right">
                 <i className="fa-regular fa-circle-dot"></i>
-                <span>For Pepperdine Waves</span>
+                <span>For Pepperdine Students</span>
               </div>
               <h2 className="title-heading " data-gsap="fade-right">
                 Exclusive Deals Around Pepperdine Campus — Always Free
@@ -78,11 +78,11 @@ export default function StudentsPage() {
                   <h5>What You Get</h5>
                   <ul className="check-list">
                     <li><a href="#">100+ exclusive local deals</a></li>
-                    <li><a href="#">New deals added weekly</a></li>
+                    <li><a href="#">$100 crypto onboarding bonus</a></li>
+                    <li><a href="#">Rewards for social app posts</a></li>
                     <li><a href="#">Digital student pass on your phone</a></li>
                     <li><a href="#">Restaurant &amp; café discounts</a></li>
                     <li><a href="#">Gym &amp; fitness deals</a></li>
-                    <li><a href="#">Retail &amp; service savings</a></li>
                   </ul>
                 </div>
                 <div className="card card-expertise card-expertise-counter " data-gsap="fade-up">
@@ -110,7 +110,7 @@ export default function StudentsPage() {
                 <span>Featured Deals</span>
               </div>
               <h2 className="title-heading heading-container heading-container-medium " data-gsap="fade-up">
-                Today&apos;s Best Deals for Pepperdine Waves
+                Today&apos;s Best Deals for Pepperdine Students
               </h2>
             </div>
             <div className="card-service-wrapper">
@@ -145,14 +145,9 @@ export default function StudentsPage() {
         </div>
       </div>
 
-      <PartnerSection
-        heading="Local Businesses Ready to Serve You"
-        desc="From dining to fitness, retail to entertainment — every deal on The Movement is from a real local Malibu business that wants your business."
-      />
-
       <GuideBand
         title="Start Saving Around Pepperdine Today!"
-        desc="Register free with your Pepperdine email and unlock 100+ exclusive deals at local Malibu businesses. Takes 2 minutes. Costs nothing."
+        desc="Register free with your phone number and unlock 100+ exclusive deals at local Malibu businesses. Takes 2 minutes. Costs nothing."
         linkLabel="Register Free Now"
         linkHref="#register"
       />
@@ -284,7 +279,7 @@ export default function StudentsPage() {
               <div className="d-flex flex-column gspace-5 position-relative z-2">
                 <div className="d-flex flex-column gspace-2">
                   <h3 className="title-heading">Register Free — Unlock All Deals</h3>
-                  <p>Enter your Pepperdine email to get instant access to 100+ exclusive local deals near campus. Free forever. No credit card, no hidden fees.</p>
+                  <p>Enter your phone number to get instant access to 100+ exclusive local deals near campus. Free forever. No credit card, no hidden fees.</p>
                 </div>
                 <form onSubmit={e => e.preventDefault()} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                   <div style={{ position: 'relative' }}>
@@ -298,8 +293,8 @@ export default function StudentsPage() {
                        onBlur={e => { e.target.style.borderColor = 'rgba(255,255,255,0.12)'; e.target.style.boxShadow = 'none'; }} />
                   </div>
                   <div style={{ position: 'relative' }}>
-                    <i className="fa-solid fa-envelope" style={{ position: 'absolute', left: 18, top: '50%', transform: 'translateY(-50%)', color: 'rgba(255,255,255,0.3)', fontSize: '0.9rem' }}></i>
-                    <input type="email" placeholder="Your Pepperdine Email (name@pepperdine.edu)" required style={{
+                    <i className="fa-solid fa-phone" style={{ position: 'absolute', left: 18, top: '50%', transform: 'translateY(-50%)', color: 'rgba(255,255,255,0.3)', fontSize: '0.9rem' }}></i>
+                    <input type="tel" placeholder="Your Phone Number" required style={{
                       width: '100%', padding: '16px 18px 16px 46px',
                       background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.12)',
                       borderRadius: 14, color: '#fff', fontSize: '0.95rem',
