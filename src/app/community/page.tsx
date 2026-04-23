@@ -57,8 +57,8 @@ export default function CommunityPage() {
             <div className="expertise-img-layout">
               <div className="image-container expertise-img" style={{ borderRadius: 24, overflow: 'hidden' }}>
                 <img
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=85"
-                  alt="Change the Cycle Inc."
+                  src="https://images.squarespace-cdn.com/content/v1/644853f99f27b117805f75cb/723ec9b9-685e-41e2-9ebf-e3a548e389ff/tempImagejkc33M.jpg"
+                  alt="Change the Cycle Inc. Team"
                   className="img-fluid"
                   data-gsap="fade-up"
                 />
@@ -81,12 +81,17 @@ export default function CommunityPage() {
               </div>
             </div>
 
-            {/* Text */}
             <div className="expertise-title">
               <div className="sub-heading" data-gsap="fade-right">
                 <i className="fa-regular fa-circle-dot"></i>
                 <span>About Change the Cycle Inc.</span>
               </div>
+              <img 
+                src="https://images.squarespace-cdn.com/content/v1/644853f99f27b117805f75cb/f09f5b8d-fb8b-44eb-aa03-fef6491bc674/CTC+Primary+Logo.png?format=1500w" 
+                alt="Change the Cycle Logo" 
+                style={{ height: 70, marginBottom: 24, display: 'block' }} 
+                data-gsap="fade-right" 
+              />
               <h2 className="title-heading" data-gsap="fade-right">
                 Empowering Girls Through STEM Education
               </h2>

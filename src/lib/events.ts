@@ -46,6 +46,12 @@ const localDeals: EventItem[] = [
   { type: 'event', cat: 'Music', title: 'Sunset Sessions — Live Acoustic Night', date: 'Apr 25, 2026', dateSort: '2026-04-25', img: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80', desc: 'Live acoustic performances at the Malibu Beach Bar. Exclusive discounts for Movement members.', source: 'movement' },
 ];
 
+import pepperdineScrapedEventsData from '../data/pepperdine-events.json';
+
+// ─── Scraped Pepperdine Events (Eventbrite) ─────────────────────
+const pepperdineScrapedEvents: EventItem[] = pepperdineScrapedEventsData as EventItem[];
+
+
 // ─── Category mapper ────────────────────────────────────────────
 function categorize(name: string, segment?: string, genre?: string): string {
   const lower = (name + ' ' + (segment || '') + ' ' + (genre || '')).toLowerCase();
@@ -304,7 +310,7 @@ export async function fetchAllEvents(forceRefresh = false): Promise<FetchEventsR
   ]);
 
   // Merge all sources — deduplicate by title similarity
-  const allEvents = [...localDeals, ...ticketmasterEvents, ...eventbriteEvents];
+  const allEvents = [...localDeals, ...pepperdineScrapedEvents, ...ticketmasterEvents, ...eventbriteEvents];
 
   // Sort by date
   allEvents.sort((a, b) => a.dateSort.localeCompare(b.dateSort));
